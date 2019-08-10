@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+  int tt=0,x,p;
+  scanf("%d %d",&x,&p);
+  p=100-p;
+  while(x>0)
+  {
+    tt=tt+x;
+    x=(p*x)/100;
+  }
+  printf("%d",tt);
+}
